@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>img/edit.svg</file>
+        <file>img/folder.svg</file>
+        <file>img/guard.svg</file>
+        <file>img/in.svg</file>
+        <file>img/out.svg</file>
+        <file>img/pc.svg</file>
+        <file>img/save.svg</file>
+        <file>img/user.svg</file>
+        <file>img/start.svg</file>
+        <file>img/settings.svg</file>
+        <file>img/APP.png</file>
+        <file>img/trash.svg</file>
+    </qresource>
+</RCC>
