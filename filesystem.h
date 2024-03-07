@@ -11,7 +11,7 @@
 #include <unistd.h>
 //
 
-const QFileDevice::Permissions DEFAULT_PERMS =  // todo: secure option when write have only owner
+const QFileDevice::Permissions DEFAULT_PERMS =
         QFile::WriteOwner | QFile::ReadOwner | QFile::ExeOwner |
         QFile::ReadGroup | QFile::ExeGroup |
         QFile::ReadOther | QFile::ExeOther;

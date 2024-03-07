@@ -23,7 +23,6 @@ int main(int argc, char *argv[])
     Config::validate();
     //
     MainWindow w;
-    // w.setWindowFlags(Qt::Window | Qt::MSWindowsFixedSizeDialogHint);
     w.show();
     return a.exec();
 }

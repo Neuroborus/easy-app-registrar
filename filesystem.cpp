@@ -3,9 +3,7 @@
 bool Filesystem::isFileExists(const QString &filepath)
 {
     QFileInfo check_file(filepath);
-    // check if file exists and if yes: not a directory?
     return check_file.exists() && check_file.isFile();
-    // return QFile::exists(filepath);
 }
 
 bool Filesystem::isDirExists(const QString &directoryPath)

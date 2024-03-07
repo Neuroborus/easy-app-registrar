@@ -30,7 +30,6 @@ MainWindow::MainWindow(QWidget *parent)
     }
     this->listModel = new QStandardItemModel(this);
     ui->setupUi(this);
-    // Set the listModel for the list view
     ui->listView->setModel(listModel);
     this->loadDefaults();
     ui->progressBar->setVisible(false);
