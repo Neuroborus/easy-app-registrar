@@ -23,7 +23,7 @@ QT/C++ </br>
 </br>
 `Config` - allows you to manually change the configuration, or reset it altogether </br>
 </br>
-`Load defaults / Save as default` - фllows you to save the field state as a template and unload when the application is used again </br>
+`Load defaults / Save as default` - allows you to save the field state as a template and unload when the application is used again </br>
 
 ## Uninstalling installed app
 Files for applications are created in several places. All paths can be seen in the config: </br>
