@@ -1,14 +1,14 @@
 # Easy App Registar
-![](https://raw.githubusercontent.com/Neuroborus/goldenrandom/main/docs/doc.gif)
+![](https://github.com/Neuroborus/easy-app-registrar/blob/main/docs/doc.GIF)
 
-An easy way to register any app/script as a system application with a launcher </br>
+An easy way to register any application/script as a system application using launcher in start menu </br>
 QT/C++ </br>
 
 ### Tested and developed on Ubuntu 22
 
 ## UI legend
 
-![](https://raw.githubusercontent.com/Neuroborus/goldenrandom/main/docs/ui.png)
+![](https://github.com/Neuroborus/easy-app-registrar/blob/main/docs/ui.png)
 
 `App name` - what you name the application </br>
 `App filepath` - full path to the executable file </br>
@@ -31,4 +31,4 @@ Files for applications are created in several places. All paths can be seen in t
 `globalApplicationsPath` - the launcher is installed there if global installation is selected </br>
 `localApplicationsPath` - the launcher is installed there if user installation is selected </br>
 </br>
-You can see between `Launcher name` and `Folder name`, which will also help you find the files </br>
+You can see behind `Launcher name` and `Folder name`, which will also help you find the files </br>
