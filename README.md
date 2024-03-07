@@ -1,4 +1,4 @@
-# Easy App Registar
+# Easy App Registrar
 ![](https://github.com/Neuroborus/easy-app-registrar/blob/main/docs/doc.GIF)
 
 An easy way to register any application/script as a system application using launcher in start menu </br>
