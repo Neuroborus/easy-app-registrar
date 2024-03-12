@@ -34,7 +34,6 @@ MainWindow::MainWindow(QWidget *parent)
     this->loadDefaults();
     ui->progressBar->setVisible(false);
     this->updateStatic();
-    this->setFixedSize(800, 485);
 }
 
 MainWindow::~MainWindow()
