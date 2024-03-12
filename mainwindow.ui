@@ -25,74 +25,10 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
-    <item row="6" column="2">
-     <widget class="QPushButton" name="pushButton_5">
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_2">
       <property name="text">
-       <string/>
-      </property>
-      <property name="icon">
-       <iconset resource="resource.qrc">
-        <normaloff>:/res/img/folder.svg</normaloff>:/res/img/folder.svg</iconset>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="5">
-     <widget class="QCheckBox" name="checkBox_2">
-      <property name="text">
-       <string>Edit mode</string>
-      </property>
-      <property name="icon">
-       <iconset resource="resource.qrc">
-        <normaloff>:/res/img/edit.svg</normaloff>:/res/img/edit.svg</iconset>
-      </property>
-     </widget>
-    </item>
-    <item row="15" column="0" colspan="6">
-     <widget class="QLabel" name="label_4">
-      <property name="text">
-       <string>Launcher name: &lt;empty&gt;</string>
-      </property>
-      <property name="scaledContents">
-       <bool>false</bool>
-      </property>
-     </widget>
-    </item>
-    <item row="8" column="0" colspan="2">
-     <widget class="QLineEdit" name="lineEdit_3">
-      <property name="text">
-       <string>icon-filepath</string>
-      </property>
-     </widget>
-    </item>
-    <item row="13" column="5">
-     <widget class="QPushButton" name="pushButton_2">
-      <property name="text">
-       <string>Create</string>
-      </property>
-      <property name="icon">
-       <iconset resource="resource.qrc">
-        <normaloff>:/res/img/start.svg</normaloff>:/res/img/start.svg</iconset>
-      </property>
-     </widget>
-    </item>
-    <item row="12" column="0" rowspan="2" colspan="2">
-     <widget class="QListView" name="listView"/>
-    </item>
-    <item row="9" column="0">
-     <widget class="QRadioButton" name="radioButton">
-      <property name="text">
-       <string>Global installation</string>
-      </property>
-      <property name="icon">
-       <iconset resource="resource.qrc">
-        <normaloff>:/res/img/pc.svg</normaloff>:/res/img/pc.svg</iconset>
-      </property>
-     </widget>
-    </item>
-    <item row="7" column="0">
-     <widget class="QLabel" name="label_3">
-      <property name="text">
-       <string>Icon filepath</string>
+       <string>App filepath</string>
       </property>
       <property name="scaledContents">
        <bool>false</bool>
@@ -110,24 +46,25 @@
       </property>
      </widget>
     </item>
-    <item row="1" column="1">
-     <widget class="QPushButton" name="pushButton_3">
+    <item row="14" column="5">
+     <widget class="QPushButton" name="pushButton_2">
       <property name="text">
-       <string>Save as default</string>
+       <string>Create</string>
       </property>
       <property name="icon">
        <iconset resource="resource.qrc">
-        <normaloff>:/res/img/in.svg</normaloff>:/res/img/in.svg</iconset>
+        <normaloff>:/res/img/start.svg</normaloff>:/res/img/start.svg</iconset>
       </property>
      </widget>
     </item>
-    <item row="3" column="0">
-     <widget class="QLabel" name="label">
+    <item row="10" column="0">
+     <widget class="QRadioButton" name="radioButton_2">
       <property name="text">
-       <string>App name</string>
+       <string>User installation</string>
       </property>
-      <property name="scaledContents">
-       <bool>false</bool>
+      <property name="icon">
+       <iconset resource="resource.qrc">
+        <normaloff>:/res/img/user.svg</normaloff>:/res/img/user.svg</iconset>
       </property>
      </widget>
     </item>
@@ -152,7 +89,10 @@
       </property>
      </widget>
     </item>
-    <item row="11" column="1">
+    <item row="13" column="0" rowspan="2" colspan="2">
+     <widget class="QListView" name="listView"/>
+    </item>
+    <item row="10" column="1">
      <widget class="QPushButton" name="pushButton_4">
       <property name="text">
        <string>Add more</string>
@@ -163,18 +103,85 @@
       </property>
      </widget>
     </item>
-    <item row="5" column="0">
-     <widget class="QLabel" name="label_2">
+    <item row="16" column="0" colspan="6">
+     <widget class="QLabel" name="label_4">
       <property name="text">
-       <string>App filepath</string>
+       <string>Launcher name: &lt;empty&gt;</string>
       </property>
       <property name="scaledContents">
        <bool>false</bool>
       </property>
      </widget>
     </item>
-    <item row="4" column="5" rowspan="9">
+    <item row="4" column="5" rowspan="10">
      <widget class="QTextBrowser" name="textBrowser"/>
+    </item>
+    <item row="6" column="0" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="text">
+       <string>exec-filepath</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="resource.qrc">
+        <normaloff>:/res/img/folder.svg</normaloff>:/res/img/folder.svg</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0" colspan="2">
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="text">
+       <string>icon-filepath</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Icon filepath</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="5">
+     <widget class="QCheckBox" name="checkBox_2">
+      <property name="text">
+       <string>Edit mode</string>
+      </property>
+      <property name="icon">
+       <iconset resource="resource.qrc">
+        <normaloff>:/res/img/edit.svg</normaloff>:/res/img/edit.svg</iconset>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="5">
+     <widget class="QProgressBar" name="progressBar">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="text">
+       <string>Save as default</string>
+      </property>
+      <property name="icon">
+       <iconset resource="resource.qrc">
+        <normaloff>:/res/img/in.svg</normaloff>:/res/img/in.svg</iconset>
+      </property>
+     </widget>
     </item>
     <item row="9" column="1">
      <widget class="QCheckBox" name="checkBox">
@@ -187,18 +194,7 @@
       </property>
      </widget>
     </item>
-    <item row="10" column="0" rowspan="2">
-     <widget class="QRadioButton" name="radioButton_2">
-      <property name="text">
-       <string>User installation</string>
-      </property>
-      <property name="icon">
-       <iconset resource="resource.qrc">
-        <normaloff>:/res/img/user.svg</normaloff>:/res/img/user.svg</iconset>
-      </property>
-     </widget>
-    </item>
-    <item row="16" column="0" colspan="6">
+    <item row="17" column="0" colspan="6">
      <widget class="QLabel" name="label_5">
       <property name="enabled">
        <bool>true</bool>
@@ -211,20 +207,24 @@
       </property>
      </widget>
     </item>
-    <item row="6" column="0" colspan="2">
-     <widget class="QLineEdit" name="lineEdit_2">
+    <item row="9" column="0">
+     <widget class="QRadioButton" name="radioButton">
       <property name="text">
-       <string>exec-filepath</string>
+       <string>Global installation</string>
+      </property>
+      <property name="icon">
+       <iconset resource="resource.qrc">
+        <normaloff>:/res/img/pc.svg</normaloff>:/res/img/pc.svg</iconset>
       </property>
      </widget>
     </item>
-    <item row="14" column="5">
-     <widget class="QProgressBar" name="progressBar">
-      <property name="enabled">
-       <bool>true</bool>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>App name</string>
       </property>
-      <property name="value">
-       <number>24</number>
+      <property name="scaledContents">
+       <bool>false</bool>
       </property>
      </widget>
     </item>
